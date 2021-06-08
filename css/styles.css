@@ -1,0 +1,174 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ctc {
+    margin-left: 500px;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: auto;
+    transform: rotate(25deg);
+    position: absolute;
+    height: auto;
+    right: 28%;
+}
+
+#features {
+    width: 100%;
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #8f8f8f;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 16px;
+    font-family: 'Montserrat-light', sans-serif;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-right: 50%;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-img {
+    width: 13%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 5% 15% 2%;
+    text-align: center;
+}
+
+.bttn {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+#footerh3 {
+    font-family: poppins;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.ftbtn {
+    margin: 3% 1% 5% 1%;
+}
+
+#footer {
+    text-align: center;
+    padding: 3%;
+}
+
+.copyright {
+    margin-top: 2%;
+}
+
+.social-icons {
+    margin: 0 1% 0 1%;
+    text-decoration: none;
+    color: #8f8f8f;
+}
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
